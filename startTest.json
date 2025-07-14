@@ -1,0 +1,1303 @@
+[
+  {
+    "id": 1,
+    "question": "We gave a meal ……..",
+    "options": {
+      "a": "at the visitors",
+      "b": "for the visitors",
+      "c": "the visitors",
+      "d": "to the visitors"
+    },
+    "topic": "Verbs",
+    "correct": "c",
+    "practice": ["3", "35"]
+  },
+  {
+    "id": 2,
+    "question": "I'm busy at the moment. …….. on the computer.",
+    "options": {
+      "a": "I work",
+      "b": "I'm work",
+      "c": "I'm working",
+      "d": "I working"
+    },
+    "topic": "Verbs",
+    "correct": "c",
+    "practice": ["4", "6"]
+  },
+  {
+    "id": 3,
+    "question": "My friend …….. the answer to the question.",
+    "options": {
+      "a": "is know",
+      "b": "know",
+      "c": "knowing",
+      "d": "knows"
+    },
+    "topic": "Verbs",
+    "correct": "d",
+    "practice": ["5", "6"]
+  },
+  {
+    "id": 4,
+    "question": "I think I’ll buy these shoes. …….. really well.",
+    "options": {
+      "a": "They fit",
+      "b": "They have fit",
+      "c": "They’re fitting",
+      "d": "They were fitting"
+    },
+    "topic": "Verbs",
+    "correct": "a",
+    "practice": ["7"]
+  },
+  {
+    "id": 5,
+    "question": "Where …….. the car?",
+    "options": {
+      "a": "did you park",
+      "b": "did you parked",
+      "c": "parked you",
+      "d": "you parked"
+    },
+    "topic": "Verbs",
+    "correct": "a",
+    "practice": ["8", "39"]
+  },
+  {
+    "id": 6,
+    "question": "At nine o’clock yesterday morning we …….. for the bus.",
+    "options": {
+      "a": "wait",
+      "b": "waiting",
+      "c": "was waiting",
+      "d": "were waiting"
+    },
+    "topic": "Past Continuous",
+    "correct": "d",
+    "practice": ["9"]
+  },
+  {
+    "id": 7,
+    "question": "When I looked round the door, the baby …….. quietly.",
+    "options": {
+      "a": "is sleeping",
+      "b": "slept",
+      "c": "was sleeping",
+      "d": "were sleeping"
+    },
+    "topic": "Past Continuous",
+    "correct": "c",
+    "practice": ["9", "10"]
+  },
+  {
+    "id": 8,
+    "question": "Here’s my report. …….. it at last.",
+    "options": {
+      "a": "I finish",
+      "b": "I finished",
+      "c": "I’m finished",
+      "d": "I’ve finished"
+    },
+    "topic": "Present Perfect",
+    "correct": "d",
+    "practice": ["11"]
+  },
+  {
+    "id": 9,
+    "question": "I’ve …….. made some coffee. It’s in the kitchen.",
+    "options": {
+      "a": "ever",
+      "b": "just",
+      "c": "never",
+      "d": "yet"
+    },
+    "topic": "Present Perfect",
+    "correct": "b",
+    "practice": ["12", "13"]
+  },
+  {
+    "id": 10,
+    "question": "We …….. to Ireland for our holidays last year.",
+    "options": {
+      "a": "goes",
+      "b": "going",
+      "c": "have gone",
+      "d": "went"
+    },
+    "topic": "Past Simple",
+    "correct": "d",
+    "practice": ["14"]
+  },
+   {
+    "id": 11,
+    "question": "Rob …….. ill for three weeks. He’s still in hospital.",
+    "options": {
+      "a": "had been",
+      "b": "has been",
+      "c": "is",
+      "d": "was"
+    },
+    "topic": "Present Perfect",
+    "correct": "b",
+    "practice": ["15"]
+  },
+  {
+    "id": 12,
+    "question": "My arms are aching now because …….. since two o’clock.",
+    "options": {
+      "a": "I’m swimming",
+      "b": "I swam",
+      "c": "I swim",
+      "d": "I’ve been swimming"
+    },
+    "topic": "Present Perfect Continuous",
+    "correct": "d",
+    "practice": ["16"]
+  },
+  {
+    "id": 13,
+    "question": "I’m very tired. …….. over 400 miles today.",
+    "options": {
+      "a": "I drive",
+      "b": "I’m driving",
+      "c": "I’ve been driving",
+      "d": "I’ve driven"
+    },
+    "topic": "Present Perfect",
+    "correct": "d",
+    "practice": ["17"]
+  },
+  {
+    "id": 14,
+    "question": "When Martin …….. the car, he took it out for a drive.",
+    "options": {
+      "a": "had repaired",
+      "b": "has repaired",
+      "c": "repaired",
+      "d": "was repairing"
+    },
+    "topic": "Past Perfect",
+    "correct": "a",
+    "practice": ["18", "19"]
+  },
+  {
+    "id": 15,
+    "question": "Jessica was out of breath because ……..",
+    "options": {
+      "a": "she’d been running",
+      "b": "she did run",
+      "c": "she’s been running",
+      "d": "she’s run"
+    },
+    "topic": "Past Perfect Continuous",
+    "correct": "a",
+    "practice": ["20"]
+  },
+  {
+    "id": 16,
+    "question": "Don’t worry. I …….. be here to help you.",
+    "options": {
+      "a": "not",
+      "b": "shall",
+      "c": "willn’t",
+      "d": "won’t"
+    },
+    "topic": "Modals",
+    "correct": "b",
+    "practice": ["23"]
+  },
+  {
+    "id": 17,
+    "question": "Our friends …….. meet us at the airport tonight.",
+    "options": {
+      "a": "are",
+      "b": "are going to",
+      "c": "go to",
+      "d": "will be to"
+    },
+    "topic": "Future Forms",
+    "correct": "b",
+    "practice": ["24", "25"]
+  },
+  {
+    "id": 18,
+    "question": "…….. a party next Saturday. We’ve sent out the invitations.",
+    "options": {
+      "a": "We had",
+      "b": "We have",
+      "c": "We’ll have",
+      "d": "We’re having"
+    },
+    "topic": "Present Continuous",
+    "correct": "d",
+    "practice": ["26"]
+  },
+  {
+    "id": 19,
+    "question": "I’ll tell Anna all the news when …….. her.",
+    "options": {
+      "a": "I’ll see",
+      "b": "I’m going to see",
+      "c": "I see",
+      "d": "I shall see"
+    },
+    "topic": "Future Time Clauses",
+    "correct": "c",
+    "practice": ["27"]
+  },
+  {
+    "id": 20,
+    "question": "At this time tomorrow …….. over the Atlantic.",
+    "options": {
+      "a": "we flying",
+      "b": "we’ll be flying",
+      "c": "we’ll fly",
+      "d": "we to fly"
+    },
+    "topic": "Future Continuous",
+    "correct": "b",
+    "practice": ["28"]
+  },
+  {
+    "id": 21,
+    "question": "Where’s Rob? …….. a shower?",
+    "options": {
+      "a": "Does he have",
+      "b": "Has he",
+      "c": "Has he got",
+      "d": "Is he having"
+    },
+    "topic": "Present Continuous",
+    "correct": "d",
+    "practice": ["31"]
+  },
+  {
+    "id": 22,
+    "question": "I …….. like that coat. It’s really nice.",
+    "options": {
+      "a": "am",
+      "b": "do",
+      "c": "very",
+      "d": "yes"
+    },
+    "topic": "Likes & Preferences",
+    "correct": "b",
+    "practice": ["33"]
+  },
+  {
+    "id": 23,
+    "question": "What’s the weather like in Canada? How often …….. there?",
+    "options": {
+      "a": "does it snow",
+      "b": "does it snows",
+      "c": "snow it",
+      "d": "snows it"
+    },
+    "topic": "Questions",
+    "correct": "a",
+    "practice": ["34", "36"]
+  },
+  {
+    "id": 24,
+    "question": "Which team …….. the game?",
+    "options": {
+      "a": "did it win",
+      "b": "did they win",
+      "c": "won",
+      "d": "won it"
+    },
+    "topic": "Questions",
+    "correct": "c",
+    "practice": ["37"]
+  },
+  {
+    "id": 25,
+    "question": "What did you leave the meeting early ……..? ~ I didn’t feel very well.",
+    "options": {
+      "a": "away",
+      "b": "because",
+      "c": "for",
+      "d": "like"
+    },
+    "topic": "Questions & Answers",
+    "correct": "c",
+    "practice": ["38"]
+  },
+  {
+    "id": 26,
+    "question": "Unfortunately the driver …….. the red light.",
+    "options": {
+      "a": "didn’t saw",
+      "b": "didn’t see",
+      "c": "no saw",
+      "d": "saw not"
+    },
+    "topic": "Past Simple",
+    "correct": "b",
+    "practice": ["40"]
+  },
+  {
+    "id": 27,
+    "question": "You haven’t eaten your pudding. …….. it?",
+    "options": {
+      "a": "Are you no want",
+      "b": "Do you no want",
+      "c": "Don’t want you",
+      "d": "Don’t you want"
+    },
+    "topic": "Questions/Negatives",
+    "correct": "d",
+    "practice": ["41"]
+  },
+  {
+    "id": 28,
+    "question": "I really enjoyed the party. It was great, ……..?",
+    "options": {
+      "a": "is it",
+      "b": "isn’t it",
+      "c": "was it",
+      "d": "wasn’t it"
+    },
+    "topic": "Question tags",
+    "correct": "d",
+    "practice": ["42"]
+  },
+  {
+    "id": 29,
+    "question": "Are we going the right way? ~ I think ……..",
+    "options": {
+      "a": "indeed",
+      "b": "it",
+      "c": "so",
+      "d": "yes"
+    },
+    "topic": "Responses",
+    "correct": "c",
+    "practice": ["43"]
+  },
+  {
+    "id": 30,
+    "question": "The chemist’s was open, so luckily I …….. buy some aspirin.",
+    "options": {
+      "a": "can",
+      "b": "can’t",
+      "c": "did can",
+      "d": "was able to"
+    },
+    "topic": "Modals",
+    "correct": "d",
+    "practice": ["44"]
+  },
+  {
+    "id": 31,
+    "question": "Lucy has to work very hard. I …….. do her job, I’m sure.",
+    "options": {
+      "a": "can’t",
+      "b": "couldn’t",
+      "c": "don’t",
+      "d": "shouldn’t"
+    },
+    "topic": "Modals",
+    "correct": "b",
+    "practice": ["46"]
+  },
+  {
+    "id": 32,
+    "question": "We had a party last night …….. spend all morning clearing up the mess.",
+    "options": {
+      "a": "I must have",
+      "b": "I've been to",
+      "c": "I've had to",
+      "d": "I've must"
+    },
+    "topic": "Modals",
+    "correct": "c",
+    "practice": ["47"]
+  },
+  {
+    "id": 33,
+    "question": "There was no one else at the box office. I …….. in a queue.",
+    "options": {
+      "a": "didn't need to wait",
+      "b": "mustn't wait",
+      "c": "needn't have waited",
+      "d": "needn't wait"
+    },
+    "topic": "Modals",
+    "correct": "a",
+    "practice": ["48"]
+  },
+  {
+    "id": 34,
+    "question": "…….. I carry that bag for you? ~ Oh, thank you.",
+    "options": {
+      "a": "Do",
+      "b": "Shall",
+      "c": "Will",
+      "d": "Would"
+    },
+    "topic": "Offers",
+    "correct": "b",
+    "practice": ["51", "52"]
+  },
+  {
+    "id": 35,
+    "question": "I’ve lost the key. I ought …….. it in a safe place.",
+    "options": {
+      "a": "that I put",
+      "b": "to be putting",
+      "c": "to have put",
+      "d": "to put"
+    },
+    "topic": "Modals",
+    "correct": "c",
+    "practice": ["49", "53"]
+  },
+  {
+    "id": 36,
+    "question": "We can’t go along here because the road is ……..",
+    "options": {
+      "a": "been repaired",
+      "b": "being repaired",
+      "c": "repair",
+      "d": "repaired"
+    },
+    "topic": "Passive voice",
+    "correct": "b",
+    "practice": ["54"]
+  },
+  {
+    "id": 37,
+    "question": "The story I’ve just read …….. a friend of mine.",
+    "options": {
+      "a": "was written",
+      "b": "was written by",
+      "c": "was written from",
+      "d": "wrote"
+    },
+    "topic": "Passive voice",
+    "correct": "b",
+    "practice": ["55", "56"]
+  },
+  {
+    "id": 38,
+    "question": "Some film stars …….. be difficult to work with.",
+    "options": {
+      "a": "are said",
+      "b": "are said to",
+      "c": "say",
+      "d": "say to"
+    },
+    "topic": "Passive voice",
+    "correct": "b",
+    "practice": ["57"]
+  },
+  {
+    "id": 39,
+    "question": "I’m going to go out and ……..",
+    "options": {
+      "a": "have cut my hair",
+      "b": "have my hair cut",
+      "c": "let my hair cut",
+      "d": "my hair be cut"
+    },
+    "topic": "Causative",
+    "correct": "b",
+    "practice": ["58"]
+  },
+  {
+    "id": 40,
+    "question": "The driver was arrested for failing …….. an accident.",
+    "options": {
+      "a": "of report",
+      "b": "report",
+      "c": "reporting",
+      "d": "to report"
+    },
+    "topic": "-ing and infinitives",
+    "correct": "d",
+    "practice": ["60", "62"]
+  },
+  {
+    "id": 41,
+    "question": "Someone suggested …….. for a walk.",
+    "options": {
+      "a": "go",
+      "b": "going",
+      "c": "of going",
+      "d": "to go"
+    },
+    "topic": "Gerund & Infinitive",
+    "correct": "b",
+    "practice": ["61", "62"]
+  },
+  {
+    "id": 42,
+    "question": "I can remember …….. voices in the middle of the night.",
+    "options": {
+      "a": "hear",
+      "b": "heard",
+      "c": "hearing",
+      "d": "to hear"
+    },
+    "topic": "Gerund",
+    "correct": "c",
+    "practice": ["64"]
+  },
+  {
+    "id": 43,
+    "question": "The police want …….. anything suspicious.",
+    "options": {
+      "a": "that we report",
+      "b": "us reporting",
+      "c": "us to report",
+      "d": "we report"
+    },
+    "topic": "Infinitive structure",
+    "correct": "c",
+    "practice": ["65"]
+  },
+  {
+    "id": 44,
+    "question": "We weren’t sure …….. or just walk in.",
+    "options": {
+      "a": "should knock",
+      "b": "to knock",
+      "c": "whether knock",
+      "d": "whether to knock"
+    },
+    "topic": "Infinitive",
+    "correct": "d",
+    "practice": ["66"]
+  },
+  {
+    "id": 45,
+    "question": "It was too cold …….. outside.",
+    "options": {
+      "a": "the guests eating",
+      "b": "for the guests to eat",
+      "c": "that the guests should eat",
+      "d": "that the guests eat"
+    },
+    "topic": "Infinitive",
+    "correct": "b",
+    "practice": ["68"]
+  },
+  {
+    "id": 46,
+    "question": "Did you congratulate Tessa …….. her exam?",
+    "options": {
+      "a": "of passing",
+      "b": "on passing",
+      "c": "passing",
+      "d": "to pass"
+    },
+    "topic": "Prepositions + gerund",
+    "correct": "b",
+    "practice": ["70"]
+  },
+  {
+    "id": 47,
+    "question": "I didn’t like it in the city at first. But now …….. here.",
+    "options": {
+      "a": "I got used to living",
+      "b": "I’m used to living",
+      "c": "I used to live",
+      "d": "I used to living"
+    },
+    "topic": "Used to / be used to",
+    "correct": "b",
+    "practice": ["72"]
+  },
+  {
+    "id": 48,
+    "question": "They raised the money simply …….. for it. It was easy.",
+    "options": {
+      "a": "asking",
+      "b": "by asking",
+      "c": "of asking",
+      "d": "with asking"
+    },
+    "topic": "Gerund (reason)",
+    "correct": "b",
+    "practice": ["73"]
+  },
+  {
+    "id": 49,
+    "question": "As we walked past, we saw Dan …….. his car.",
+    "options": {
+      "a": "in washing",
+      "b": "to wash",
+      "c": "wash",
+      "d": "washing"
+    },
+    "topic": "Bare infinitive / participle",
+    "correct": "d",
+    "practice": ["74"]
+  },
+  {
+    "id": 50,
+    "question": "I need to buy ……..",
+    "options": {
+      "a": "a bread",
+      "b": "a loaf bread",
+      "c": "a loaf of bread",
+      "d": "breads"
+    },
+    "topic": "Quantifiers",
+    "correct": "c",
+    "practice": ["76", "77"]
+  },
+  {
+    "id": 51,
+    "question": "My father is not only the town mayor, he runs …….., too.",
+    "options": {
+      "a": "a business",
+      "b": "a piece of business",
+      "c": "business",
+      "d": "some business"
+    },
+    "topic": "Nouns",
+    "correct": "a",
+    "practice": ["78"]
+  },
+  {
+    "id": 52,
+    "question": "The …….. produced at our factory in Scotland.",
+    "options": {
+      "a": "good are",
+      "b": "good is",
+      "c": "goods are",
+      "d": "goods is"
+    },
+    "topic": "Nouns (uncountable/plural)",
+    "correct": "c",
+    "practice": []
+  },
+  {
+    "id": 53,
+    "question": "I’m looking for …….. to cut this string.",
+    "options": {
+      "a": "a pair scissors",
+      "b": "a scissor",
+      "c": "a scissors",
+      "d": "some scissors"
+    },
+    "topic": "Unusual plurals",
+    "correct": "d",
+    "practice": []
+  },
+  {
+    "id": 54,
+    "question": "I was watching TV at home when suddenly …….. rang.",
+    "options": {
+      "a": "a doorbell",
+      "b": "an doorbell",
+      "c": "doorbell",
+      "d": "the doorbell"
+    },
+    "topic": "Articles",
+    "correct": "d",
+    "practice": []
+  },
+  {
+    "id": 55,
+    "question": "I’ve always liked ……..",
+    "options": {
+      "a": "Chinese food",
+      "b": "food of China",
+      "c": "some food of China",
+      "d": "the Chinese food"
+    },
+    "topic": "Nouns / collocation",
+    "correct": "a",
+    "practice": []
+  },
+  {
+    "id": 56,
+    "question": "In England most children go …….. at the age of five.",
+    "options": {
+      "a": "school",
+      "b": "to school",
+      "c": "to some schools",
+      "d": "to the school"
+    },
+    "topic": "Articles / Institutions",
+    "correct": "b",
+    "practice": []
+  },
+  {
+    "id": 57,
+    "question": "We haven’t had a holiday for …….. time.",
+    "options": {
+      "a": "a so long",
+      "b": "so a long",
+      "c": "such a long",
+      "d": "such long"
+    },
+    "topic": "Quantifiers",
+    "correct": "c",
+    "practice": []
+  },
+  {
+    "id": 58,
+    "question": "Our friends have a house in ……..",
+    "options": {
+      "a": "a West London",
+      "b": "the West London",
+      "c": "West London",
+      "d": "West of London"
+    },
+    "topic": "Proper nouns",
+    "correct": "c",
+    "practice": []
+  },
+  {
+    "id": 59,
+    "question": "It’s so boring here. Nothing ever happens in …….. place.",
+    "options": {
+      "a": "that",
+      "b": "these",
+      "c": "this",
+      "d": "those"
+    },
+    "topic": "Demonstratives",
+    "correct": "c",
+    "practice": []
+  },
+  {
+    "id": 60,
+    "question": "Is that my key, or is it ……..?",
+    "options": {
+      "a": "the yours",
+      "b": "the your’s",
+      "c": "your",
+      "d": "yours"
+    },
+    "topic": "Possessive pronouns",
+    "correct": "d",
+    "practice": []
+  },
+  {
+    "id": 61,
+    "question": "Adrian takes no interest in clothes. He’ll wear ……..",
+    "options": {
+      "a": "a thing",
+      "b": "anything",
+      "c": "something",
+      "d": "thing"
+    },
+    "topic": "Pronouns",
+    "correct": "b",
+    "practice": []
+  },
+  {
+    "id": 62,
+    "question": "There’s …….. use in complaining. They probably won’t do anything about it.",
+    "options": {
+      "a": "a few",
+      "b": "a little",
+      "c": "few",
+      "d": "little"
+    },
+    "topic": "Quantifiers",
+    "correct": "d",
+    "practice": []
+  },
+  {
+    "id": 63,
+    "question": "I don’t want to buy any of these books. I’ve got ……..",
+    "options": {
+      "a": "all",
+      "b": "all them",
+      "c": "everything",
+      "d": "them all"
+    },
+    "topic": "Pronouns",
+    "correct": "d",
+    "practice": []
+  },
+  {
+    "id": 64,
+    "question": "Let’s stop and have a coffee. …….. a café over there, look.",
+    "options": {
+      "a": "Is",
+      "b": "It’s",
+      "c": "There",
+      "d": "There’s"
+    },
+    "topic": "Existential structures",
+    "correct": "d",
+    "practice": []
+  },
+  {
+    "id": 65,
+    "question": "Everyone in the group shook hands with ……..",
+    "options": {
+      "a": "each other",
+      "b": "one other",
+      "c": "one the other",
+      "d": "themselves"
+    },
+    "topic": "Reciprocal pronouns",
+    "correct": "a",
+    "practice": ["100", "101"]
+  },
+  {
+    "id": 66,
+    "question": "The washing machine has broken down again. I think we should get ……..",
+    "options": {
+      "a": "a new",
+      "b": "a new one",
+      "c": "new",
+      "d": "new one"
+    },
+    "topic": "Pronouns",
+    "correct": "b",
+    "practice": ["102"]
+  },
+  {
+    "id": 67,
+    "question": "All the guests were dancing. …….. having a good time.",
+    "options": {
+      "a": "All were",
+      "b": "Every was",
+      "c": "Everyone was",
+      "d": "Someone were"
+    },
+    "topic": "Subject-verb agreement",
+    "correct": "c",
+    "practice": ["103"]
+  },
+  {
+    "id": 68,
+    "question": "The house was …….. building.",
+    "options": {
+      "a": "a nice old stone",
+      "b": "a nice stone old",
+      "c": "a stone old nice",
+      "d": "an old nice stone"
+    },
+    "topic": "Adjective order",
+    "correct": "a",
+    "practice": ["105"]
+  },
+  {
+    "id": 69,
+    "question": "The government is doing nothing to help ……..",
+    "options": {
+      "a": "poor",
+      "b": "the poor",
+      "c": "the poors",
+      "d": "the poor ones"
+    },
+    "topic": "Noun phrases",
+    "correct": "b",
+    "practice": ["106"]
+  },
+  {
+    "id": 70,
+    "question": "The young man seems very ……..",
+    "options": {
+      "a": "sensible",
+      "b": "sensiblely",
+      "c": "sensibley",
+      "d": "sensibly"
+    },
+    "topic": "Adjectives and adverbs",
+    "correct": "a",
+    "practice": ["108"]
+  },
+  {
+    "id": 71,
+    "question": "I missed the bus. I was only just in time to catch it. ……..",
+    "options": {
+      "a": "mostly",
+      "b": "near",
+      "c": "nearest",
+      "d": "nearly"
+    },
+    "topic": "Adverbs",
+    "correct": "d",
+    "practice": ["109"]
+  },
+  {
+    "id": 72,
+    "question": "This detailed map is …….. the atlas.",
+    "options": {
+      "a": "more useful as",
+      "b": "more useful than",
+      "c": "usefuller as",
+      "d": "usefuller than"
+    },
+    "topic": "Comparatives",
+    "correct": "b",
+    "practice": ["110", "111"]
+  },
+  {
+    "id": 73,
+    "question": "This place gets …….. crowded with tourists every summer.",
+    "options": {
+      "a": "always more",
+      "b": "crowded and more",
+      "c": "from more to more",
+      "d": "more and more"
+    },
+    "topic": "Comparative expressions",
+    "correct": "d",
+    "practice": ["112"]
+  },
+  {
+    "id": 74,
+    "question": "Yes, I have got the report. …….. it.",
+    "options": {
+      "a": "I just am reading",
+      "b": "I’m just reading",
+      "c": "I’m reading just",
+      "d": "Just I’m reading"
+    },
+    "topic": "Present continuous",
+    "correct": "b",
+    "practice": ["113"]
+  },
+  {
+    "id": 75,
+    "question": "I’ve read this paragraph three times, and I …….. understand it.",
+    "options": {
+      "a": "can’t still",
+      "b": "can’t yet",
+      "c": "still can’t",
+      "d": "yet can’t"
+    },
+    "topic": "Adverb position",
+    "correct": "c",
+    "practice": ["114"]
+  },
+  {
+    "id": 76,
+    "question": "We’re really sorry. We regret what happened ……..",
+    "options": {
+      "a": "a bit",
+      "b": "much",
+      "c": "very",
+      "d": "very much"
+    },
+    "topic": "Adverbs of degree",
+    "correct": "d",
+    "practice": ["115"]
+  },
+  {
+    "id": 77,
+    "question": "The village is …….. Sheffield. It’s only six miles away.",
+    "options": {
+      "a": "along",
+      "b": "by",
+      "c": "near",
+      "d": "next"
+    },
+    "topic": "Prepositions of place",
+    "correct": "c",
+    "practice": ["118"]
+  },
+  {
+    "id": 78,
+    "question": "You can see the details …….. the screen.",
+    "options": {
+      "a": "at",
+      "b": "by",
+      "c": "in",
+      "d": "on"
+    },
+    "topic": "Prepositions",
+    "correct": "d",
+    "practice": ["119"]
+  },
+  {
+    "id": 79,
+    "question": "I’ve got a meeting …….. Thursday afternoon.",
+    "options": {
+      "a": "at",
+      "b": "in",
+      "c": "on",
+      "d": "to"
+    },
+    "topic": "Prepositions of time",
+    "correct": "c",
+    "practice": ["120"]
+  },
+  {
+    "id": 80,
+    "question": "We’ve lived in this flat …….. five years.",
+    "options": {
+      "a": "ago",
+      "b": "already",
+      "c": "for",
+      "d": "since"
+    },
+    "topic": "Prepositions of time",
+    "correct": "c",
+    "practice": ["121"]
+  },
+  {
+    "id": 81,
+    "question": "This car is …….., if you’re interested in buying it.",
+    "options": {
+      "a": "for sale",
+      "b": "in sale",
+      "c": "at sale",
+      "d": "to sell"
+    },
+    "topic": "Fixed expressions",
+    "correct": "a",
+    "practice": ["123"]
+  },
+  {
+    "id": 82,
+    "question": "Polly wants to cycle round the world. She’s really keen …….. the idea.",
+    "options": {
+      "a": "about",
+      "b": "for",
+      "c": "on",
+      "d": "with"
+    },
+    "topic": "Prepositions",
+    "correct": "c",
+    "practice": ["124", "125"]
+  },
+  {
+    "id": 83,
+    "question": "I prefer dogs …….. cats. I hate cats.",
+    "options": {
+      "a": "from",
+      "b": "over",
+      "c": "than",
+      "d": "to"
+    },
+    "topic": "Prepositions with verbs",
+    "correct": "d",
+    "practice": ["126", "127"]
+  },
+  {
+    "id": 84,
+    "question": "My father used the money he won to set …….. his own company.",
+    "options": {
+      "a": "forward",
+      "b": "on",
+      "c": "out",
+      "d": "up"
+    },
+    "topic": "Phrasal verbs",
+    "correct": "d",
+    "practice": ["128", "129", "130"]
+  },
+  {
+    "id": 85,
+    "question": "Don’t go too fast. I can’t keep …….. you.",
+    "options": {
+      "a": "on to",
+      "b": "on with",
+      "c": "up to",
+      "d": "up with"
+    },
+    "topic": "Phrasal verbs",
+    "correct": "d",
+    "practice": ["131"]
+  },
+  {
+    "id": 86,
+    "question": "Someone …….. the tickets are free.",
+    "options": {
+      "a": "said me",
+      "b": "said me that",
+      "c": "told me",
+      "d": "told to me"
+    },
+    "topic": "Reported speech",
+    "correct": "c",
+    "practice": ["132"]
+  },
+  {
+    "id": 87,
+    "question": "Last week Justin said ‘I’ll do it tomorrow.’ He said he would do it ……..",
+    "options": {
+      "a": "the following day",
+      "b": "the previous day",
+      "c": "tomorrow",
+      "d": "yesterday"
+    },
+    "topic": "Reported speech",
+    "correct": "a",
+    "practice": ["133"]
+  },
+  {
+    "id": 88,
+    "question": "I don’t know why Isabelle didn’t go to the meeting. She said she definitely …….. going.",
+    "options": {
+      "a": "be",
+      "b": "is",
+      "c": "was",
+      "d": "would"
+    },
+    "topic": "Reported speech",
+    "correct": "c",
+    "practice": ["134"]
+  },
+  {
+    "id": 89,
+    "question": "The librarian asked us …….. so much noise.",
+    "options": {
+      "a": "don’t make",
+      "b": "not make",
+      "c": "not making",
+      "d": "not to make"
+    },
+    "topic": "Reported commands",
+    "correct": "d",
+    "practice": ["136"]
+  },
+  {
+    "id": 90,
+    "question": "What’s the name of the man …….. gave us a lift?",
+    "options": {
+      "a": "he",
+      "b": "what",
+      "c": "which",
+      "d": "who"
+    },
+    "topic": "Relative pronouns",
+    "correct": "d",
+    "practice": ["137"]
+  },
+  {
+    "id": 91,
+    "question": "What was that notice ……..?",
+    "options": {
+      "a": "at that you were looking",
+      "b": "you were looking at",
+      "c": "you were looking at it",
+      "d": "which you were looking"
+    },
+    "topic": "Relative clauses",
+    "correct": "b",
+    "practice": ["139"]
+  },
+  {
+    "id": 92,
+    "question": "Lucy is the woman …….. husband is in hospital.",
+    "options": {
+      "a": "her",
+      "b": "hers the",
+      "c": "whose",
+      "d": "whose the"
+    },
+    "topic": "Relative pronouns",
+    "correct": "c",
+    "practice": ["140"]
+  },
+  {
+    "id": 93,
+    "question": "York, …….. last year, is a nice old city.",
+    "options": {
+      "a": "I visited",
+      "b": "that I visited",
+      "c": "which I visited",
+      "d": "whom I visited"
+    },
+    "topic": "Relative clauses",
+    "correct": "c",
+    "practice": ["141", "142"]
+  },
+  {
+    "id": 94,
+    "question": "The accident was seen by some people at a bus stop ……..",
+    "options": {
+      "a": "waited",
+      "b": "waiting",
+      "c": "were waiting",
+      "d": "who waiting"
+    },
+    "topic": "Reduced relative clause",
+    "correct": "b",
+    "practice": ["143"]
+  },
+  {
+    "id": 95,
+    "question": "If …….. my passport, I’ll be in trouble.",
+    "options": {
+      "a": "I lose",
+      "b": "I’ll lose",
+      "c": "I lost",
+      "d": "I would lose"
+    },
+    "topic": "First conditional",
+    "correct": "a",
+    "practice": ["144", "147"]
+  },
+  {
+    "id": 96,
+    "question": "I haven’t got a ticket. If …….. one, I could get in.",
+    "options": {
+      "a": "I’d have",
+      "b": "I had",
+      "c": "I have",
+      "d": "I’ve got"
+    },
+    "topic": "Second conditional",
+    "correct": "b",
+    "practice": ["145", "147"]
+  },
+  {
+    "id": 97,
+    "question": "If the bus to the airport hadn’t been so late, we …….. the plane.",
+    "options": {
+      "a": "caught",
+      "b": "had caught",
+      "c": "would catch",
+      "d": "would have caught"
+    },
+    "topic": "Third conditional",
+    "correct": "d",
+    "practice": ["146", "147"]
+  },
+  {
+    "id": 98,
+    "question": "If only people …….. keep sending me bills!",
+    "options": {
+      "a": "don’t",
+      "b": "shouldn’t",
+      "c": "weren’t",
+      "d": "wouldn’t"
+    },
+    "topic": "Wishes and regrets",
+    "correct": "d",
+    "practice": ["149"]
+  },
+  {
+    "id": 99,
+    "question": "I just had to take the dog out of the awful weather ……..",
+    "options": {
+      "a": "although",
+      "b": "despite",
+      "c": "even though",
+      "d": "in spite warm"
+    },
+    "topic": "Contrast linkers",
+    "correct": "d",
+    "practice": ["150"]
+  },
+  {
+    "id": 100,
+    "question": "Anna put the electric fire on ……..",
+    "options": {
+      "a": "for getting",
+      "b": "in order get",
+      "c": "so she gets",
+      "d": "to get"
+    },
+    "topic": "Purpose clauses",
+    "correct": "d",
+    "practice": []
+  }
+]
+
