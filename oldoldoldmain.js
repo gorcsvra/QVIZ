@@ -1,21 +1,19 @@
 let questions = [];
-let currentQuestions = [];
 
 // Kérdések betöltése JSON-ból
 fetch('startTest.json')
   .then(res => res.json())
   .then(data => {
     questions = data;
-    currentQuestions = [...questions]; // első körben minden kérdés
-    renderQuiz(currentQuestions);
+    renderQuiz();
   });
 
-// Kvíz kirajzolása (paraméterezhető)
-function renderQuiz(questionList) {
+// Kvíz kirajzolása
+function renderQuiz() {
   const quizDiv = document.getElementById('quiz');
   quizDiv.innerHTML = '';
-  questionList.forEach((q) => {
-    const qDiv = createQuestionElement(q);
+  questions.forEach((q, idx) => {
+    const qDiv = createQuestionElement(q, idx);
     quizDiv.appendChild(qDiv);
   });
   document.getElementById('result').innerHTML = '';
@@ -23,11 +21,11 @@ function renderQuiz(questionList) {
 }
 
 // Kérdés HTML létrehozása
-function createQuestionElement(q) {
+function createQuestionElement(q, idx) {
   const qDiv = document.createElement('div');
   qDiv.className = 'question';
   qDiv.setAttribute('data-qid', q.id);
-  qDiv.innerHTML = `<div><b>${q.id}. ${q.question}</b></div>`;
+  qDiv.innerHTML = `<div><b>${idx + 1}. ${q.question}</b></div>`;
   const optsDiv = createOptionsElement(q);
   qDiv.appendChild(optsDiv);
   return qDiv;
@@ -59,35 +57,22 @@ function createOptionLabel(q, key, val) {
 document.getElementById('submit').onclick = function () {
   let correct = 0;
   let practiceList = [];
-  let incorrectQuestions = [];
 
-  currentQuestions.forEach(q => {
+  questions.forEach(q => {
     const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
     const userAnswer = selected ? selected.value : null;
     const wasCorrect = userAnswer === q.correct;
 
     if (wasCorrect) {
       correct++;
-    } else {
-      incorrectQuestions.push(q);
-      if (q.practice && q.practice.length > 0) {
-        practiceList.push(`${q.id}. kérdés: Gyakorlás javasolt fejezet(ek): ${q.practice.join(', ')}`);
-      }
+    } else if (q.practice && q.practice.length > 0) {
+      practiceList.push(`${q.id}. kérdés: Gyakorlás javasolt fejezet(ek): ${q.practice.join(', ')}`);
     }
 
     updateQuestionStyle(q, userAnswer, wasCorrect);
   });
 
-  displayResult(correct, currentQuestions.length, practiceList);
-
-  // Ha volt hibás kérdés, újra ki lehet tölteni őket
-  if (incorrectQuestions.length > 0) {
-    currentQuestions = incorrectQuestions;
-    document.getElementById('retry').style.display = 'inline-block';
-  } else {
-    currentQuestions = [];
-    document.getElementById('retry').style.display = 'none';
-  }
+  displayResult(correct, practiceList);
 };
 
 // Kérdések stílusának frissítése
@@ -121,15 +106,36 @@ function updateQuestionStyle(q, userAnswer, wasCorrect) {
 }
 
 // Eredmény megjelenítése
-function displayResult(correct, total, practiceList) {
-  let resultText = `Eredmény: ${correct} / ${total}`;
+function displayResult(correct, practiceList) {
+  let resultText = `Eredmény: ${correct} / ${questions.length}`;
   if (practiceList.length > 0) {
     resultText += '<br><br><b>Gyakorlási javaslatok hibás vagy üres válaszokhoz:</b><br>' + practiceList.join('<br>');
+    document.getElementById('retry').style.display = 'inline-block'; // Ha van hibás kérdés, megjelenik a gomb
+  } else {
+    document.getElementById('retry').style.display = 'none';
   }
   document.getElementById('result').innerHTML = resultText;
 }
 
-// Hibás kérdések újra kirajzolása gomb
+// Hibás kérdések újra kirajzolása
 document.getElementById('retry').onclick = function () {
-  renderQuiz(currentQuestions); // csak a hibás kérdések újra
+  const retryQuestions = questions.filter(q => {
+    const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+    const userAnswer = selected ? selected.value : null;
+    return userAnswer !== q.correct;
+  });
+
+  renderRetryQuiz(retryQuestions);
 };
+
+// Csak hibás kérdések kirajzolása
+function renderRetryQuiz(retryList) {
+  const quizDiv = document.getElementById('quiz');
+  quizDiv.innerHTML = '';
+  retryList.forEach((q, idx) => {
+    const qDiv = createQuestionElement(q, idx);
+    quizDiv.appendChild(qDiv);
+  });
+  document.getElementById('result').innerHTML = '';
+  document.getElementById('retry').style.display = 'none';
+}
